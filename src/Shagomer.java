@@ -2,22 +2,21 @@ public class Shagomer {
     private static int[][] steps = new int[12][];
 
     {
-        steps[0] = new int[31];
-        steps[1] = new int[28];
-        steps[2] = new int[31];
-        steps[3] = new int[30];
-        steps[4] = new int[31];
-        steps[5] = new int[30];
-        steps[6] = new int[31];
+        steps[1] = new int[31];
+        steps[2] = new int[28];
+        steps[3] = new int[31];
+        steps[4] = new int[30];
+        steps[5] = new int[31];
+        steps[6] = new int[30];
         steps[7] = new int[31];
-        steps[8] = new int[30];
-        steps[9] = new int[31];
-        steps[10] = new int[30];
-        steps[11] = new int[31];
+        steps[8] = new int[31];
+        steps[9] = new int[30];
+        steps[10] = new int[31];
+        steps[11] = new int[30];
+        steps[12] = new int[31];
     }
 
     private static int purpose = 5000;
-
 
     public static void recordingStepData(String stepDate) {
         String[] data = stepDate.split(" ");
@@ -43,34 +42,32 @@ public class Shagomer {
        }
     }
 
-    //
-
     private static int getNumberOfMonth(String month) {
         switch (month) {
             case "Январь":
-                return 0;
-            case "Февраль":
                 return 1;
-            case "Март":
+            case "Февраль":
                 return 2;
-            case "Апрель":
+            case "Март":
                 return 3;
-            case "Май":
+            case "Апрель":
                 return 4;
-            case "Июнь":
+            case "Май":
                 return 5;
-            case "Июль":
+            case "Июнь":
                 return 6;
-            case "Август":
+            case "Июль":
                 return 7;
-            case "Сентябрь":
+            case "Август":
                 return 8;
-            case "Октябрь":
+            case "Сентябрь":
                 return 9;
-            case "Ноябрь":
+            case "Октябрь":
                 return 10;
-            case "Декабрь":
+            case "Ноябрь":
                 return 11;
+            case "Декабрь":
+                return 12;
         }
         return 0;
     }
