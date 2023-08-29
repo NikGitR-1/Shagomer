@@ -3,17 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-/*        // Example step data recordings
         Shagomer.recordingStepData("Июль 1 5100");
         Shagomer.recordingStepData("Июль 15 4800");
         Shagomer.recordingStepData("Август 3 5200");
 
-        // Get and display step data for a specific month
+
         Shagomer.getDateMonth("Июль");
- */
 //--------------------------------------------------------------------
 
-        Scanner scanner = new Scanner(System.in);
+/*        Scanner scanner = new Scanner(System.in);
         Shagomer shagomer = new Shagomer();
 
         while (true) {
@@ -41,7 +39,7 @@ public class Main {
                 default:
                     System.out.println("Некорректный выбор. Пожалуйста, выберите действие из списка.");
             }
-        }
+        }*/
     }
 
 }
